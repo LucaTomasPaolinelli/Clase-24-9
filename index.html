@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia | Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>CLASE - Formularios</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h3>FORMS</h3>
+                <form>
+                    <input type="text" placeholder="Ingrese su nombre" required>
+                    <input type="number" placeholder="Ingrese su edad" required>
+                    <input type="email" placeholder="Ingrese su gmail" autocomplete="off" required>
+                </form>
+            </article>
+            <article>
+                <h3>Comida</h3>
+                <img src="iStock-1940092332-Fideos-con-tuco-scaled-1440x1440.jpg" alt="Fideos">
+                <img src="ravioles.jpg" alt="ravioles">
+                <style>
+                    img {
+                        width: 60px;
+                        height: 40px;
+                        display: inline-block;
+                        }
+                </style>
+                <form>
+                    <select name="comida">
+                        <option value="1">Fideos</option>
+                        <option value="2">Ravioles</option>
+                    </select>
+                    
+                    <input type="radio" name="comida" id="INsalsa">
+                    <label for="INsalsa">Con salsa</label>
+                    <input type="radio"name="comida" id="INcrema">
+                    <label for="INcrema">Con crema</label>
+                    <input type="radio"name="comida" id="INsolo">
+                    <label for="INsolo">Sin nada</label>
+                </form>
+            </article>
+            <style>
+                textarea{
+                    resize: none;
+                }
+            </style>
+            <article>
+                <h3>Mensaje(QUEJAS)</h3>
+            <textarea placeholder="ingrese su queja" cols="40" rows="10"></textarea>
+            </article>
+        </section>
+        <button>enviar</button>
+    </main>
+</body>
+</html>
